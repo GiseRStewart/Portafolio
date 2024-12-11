@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d1e8f3;
+}
+
+header {
+    background: linear-gradient(500deg,#e44390 , #f1ad53, rgba(31, 142, 156, 0.9),rgba(236, 94, 229, 0.9));
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+h1 {
+  color:#bd2bab;
+  text-align: center;
+  font: 3rem "Gloria Hallelujah", cursive;
+  font-style: normal;
+  padding-top: 34vh;
+  margin: -36vh 0vw 2vh 18vw;
+  width: 50vw;
+}
+marquee {
+  width: 98vw;
+  height: 50vh;
+  margin: 1vh 0vw -8vh 0vw;
+}
+#title{
+    width: 98vw;
+    height: 50vh;
+    margin: 1vh 0vw -8vh 0vw;
+    font: 3rem "Oxanium", sans-serif;
+    font-style: normal;
+}
+.seccion {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #bd2bab;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px);
+}
+
+.seccion h2 {
+  color:#e44390;
+  margin-top: 0;
+}
+  
+.contenedor-grid-card {
+    width: 98vw;
+    height: auto;
+    margin-top: 4vh;
+    display: grid
+;
+    grid-template-columns: repeat(4, 360px);
+    grid-template-rows: repeat(1, auto);
+    justify-content: center;
+    column-gap: 2vw;
+    gap: 22px;
+    padding: 22px;
+    margin-left: -29vw;
+}
+.grid-item {
+  box-shadow: 2px 2px 2px 2px rgb(91, 90, 90);
+  text-align: center;
+  border-radius: 0.5%;
+  padding: 20px;
+  margin: 10vh 0.5vw 5vh 0.5vw;
+}
+h3 {
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.subtitle {
+    text-align: center;
+    color: black;
+    border-radius: 2px;
+    font-size: 2vw;
+    padding: 0vw;
+}
+
+.subtitle h3{
+    color:navy;
+}
+.campo-img {
+  text-align: center;
+  align-items: center;
+}
+.seccion p {
+  color: #666;
+  margin-bottom: 20px;
+
+}
+.text{
+    font: 1.3rem "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    text-align: justify;
+    text-indent: 5em;
+    margin: 10px;
+    padding: 5px;
+}
+button {
+  background-color: #bd2bab;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b92ead;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(500deg, #e44390, #f1ad53, rgba(31, 142, 156, 0.9), rgba(236, 94, 229, 0.9));
+  bottom: -605px;
+  height: 40vh;
+  margin-bottom: -593vh;
+  color: #bd2bab;
+}
+
+
+.contenedor-imagen {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.contenedor-imagen-inca {
+  text-align: center;
+  width: 100%;
+  background-color: #36c205; /* azul claro */
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-pie .copy {
+    flex: 1;
+    font: -1vw "Gloria Hallelujah", cursive;
+    font-style: normal;
+    padding: 4px;
+    margin-left: -262px;
+    transition: .3s linear;
+}
+.seccion-pie a{
+    color: var(--color-texto-header);
+    text-decoration: none;
+    font: 16px "Gloria Hallelujah", cursive;
+    font-style: normal;
+}
+#titulo-redes{
+  text-align: center;
+  margin-top: inherit;
+  margin-left: 120px;
+  font: bolder 26px "Oxanium", sans-serif;
+}
+.redes-img {
+  flex: 1;
+  height: 40px;
+  padding: 10px;
+  margin: -34px 151px 17px 60px;
+}
+.copy-2{
+    display: none;
+}
+.atribucion{
+    font: 2em "Gloria Hallelujah", cursive;
+    font-style:oblique;
+    color: #bd2bab;
+}

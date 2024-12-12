@@ -83,7 +83,13 @@ h1 {
     margin: -28vh 0vw 2vh 22vw;
     width: 50vw;
 }
-marquee {
+@keyframes scrollBanner {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+.marquee {
+  animation: scrollBanner 10s linear infinite;
+  white-space: nowrap;
   width: 98vw;
   height: 50vh;
   margin: 1vh 0vw -8vh 0vw;

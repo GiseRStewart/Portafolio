@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta menú hamburger -->
+    <script src="https://kit.fontawesome.com/a763bf316a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/Imagenes/lluvia-de-meteoros.gif" type="image/x-icon">
     <title>Carrera Profesional</title>
     <link rel="stylesheet" href="Estilo/estilos.css">
 </head>
 <body>
     <header>
-        <h1>Enfoque Profesional</h1>
+        <nav class="menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i></label>
+            <ul>
+                <li><a class="hipervinculo" href="/index.html">Home</a></li>
+                <li><a class="hipervinculo" href="/informacion-personal.html" aria-label="Ir a informacion Personal">informacion Personal</a></li>
+                <li><a class="hipervinculo" href="formacion-temprana-y-educacion.html" aria-label="Ir a Formación Temprana y Educación">Formación Temprana y Educación</a></li>
+                <li><a class="hipervinculo" href="carrera-profesional.html" aria-label="Ir a carrera profesional">Carrera Profesional</a></li>
+                <li><a class="hipervinculo" href="mundo-personal.html" aria-label="Ir a Mundo Personal">Mundo Personal</a></li>
+            </ul>
+            <h1>Enfoque Profesional</h1>
+          </nav>
     </header>
     <main>
         <section>
             <h2>Resumen de mi carrera profesional</h2>
-            <p>A lo largo de más de 15 años como fisioterapeuta, me he especializado en la rehabilitación de pacientes, especialmente en el área de ortopedia, aunque también he trabajado con personas de otras especialidades, como neurológicos, respiratorios, y atendido a niños, adultos y adultos mayores. Esta experiencia me ha permitido ayudar a muchos pacientes a recuperar su bienestar físico y mejorar su calidad de vida.
+            <p id="enfoque">A lo largo de más de 15 años como fisioterapeuta, me he especializado en la rehabilitación de pacientes, especialmente en el área de ortopedia, aunque también he trabajado con personas de otras especialidades, como neurológicos, respiratorios, y atendido a niños, adultos y adultos mayores. Esta experiencia me ha permitido ayudar a muchos pacientes a recuperar su bienestar físico y mejorar su calidad de vida.
 
                 Sin embargo, en un punto de mi carrera, decidí reinventarme y dar un giro hacia el sector tecnológico, con la intención de cambiar de rubro. Fue así como me formé como programadora full-stack en Python. Este cambio fue un reto personal y profesional, impulsado por mi deseo de explorar nuevas oportunidades y desafiarme en un área completamente diferente.
                 
@@ -24,28 +39,30 @@
        
         <section>
             <h2>Habilidades en Fisioterapia</h2>
-            <ol>
+            <ol class="lista">
+
                 <li>Rehabilitación ortopédica: Tratamiento de lesiones musculoesqueléticas, postquirúrgicas y dolor crónico.</li>
-                    <li>Evaluación y diagnóstico físico: Capacidad para evaluar la condición física de los pacientes y desarrollar planes de tratamiento personalizados.</li>
-                        <li>Terapia neurológica: Manejo de pacientes con afecciones neurológicas, como accidentes cerebrovasculares o esclerosis múltiple.</li>
-                            <li>Terapia respiratoria: Tratamiento y rehabilitación de pacientes con enfermedades respiratorias, como EPOC o fibrosis pulmonar.</li>
-                                <li>Rehabilitación pediátrica: Tratamiento de niños con problemas musculoesqueléticos, neurológicos o respiratorios.</li>
-                                    <li>Rehabilitación geriátrica: Atención especializada a adultos mayores para mejorar su movilidad, equilibrio y calidad de vida.</li>
-                                        <li>Ejercicios terapéuticos: Diseño de programas de ejercicios para fortalecer y rehabilitar el cuerpo.</li>
-                                            <li>Manejo del dolor: Técnicas como electroterapia, masajes y movilización articular para reducir el dolor y la inflamación.</li>
-                                                <li> Trabajo en equipo multidisciplinario: Colaboración con médicos, terapeutas ocupacionales y otros profesionales de la salud para diseñar tratamientos integrales.</li>
-                                                    <li>Atención personalizada y empatía: Capacidad para entender las necesidades de los pacientes y ofrecerles un trato cercano y humano.</li>
-                                                        <h2>Habilidades en Tecnología</h2>
-                                                        <li>Programación Full-Stack en Python: Desarrollo de aplicaciones web usando Python tanto en el lado del servidor como en el frontend.</li>
-                                                            <li>Desarrollo de aplicaciones web: Creación de interfaces de usuario interactivas y gestión de bases de datos.</li>
-                                                                <li>Diseño UX (Experiencia del Usuario): Diseño de interfaces centradas en el usuario, asegurando una experiencia intuitiva y eficiente.</li>
-                                                                    <li>Desarrollo de software: Aplicación de principios de ingeniería de software en la creación de aplicaciones robustas y escalables.</li>
-                                                                        </li>Inteligencia Artificial (IA): Conocimientos en el uso de IA y aprendizaje automático, aplicando estos conceptos en diferentes áreas.</li>
-                                                                        <li>Desarrollo de soluciones tecnológicas: Capacidad para crear soluciones tecnológicas innovadoras y efectivas que resuelvan problemas del mundo real.</li>
-                                                                            <li>Trabajo con bases de datos: Diseño y manejo de bases de datos, asegurando su correcto funcionamiento y optimización.</li>
-                                                                                <li>Uso de herramientas de colaboración: Trabajo con plataformas como GitHub, JIRA y Slack para gestión de proyectos y trabajo en equipo.</li>
-                                                                                    <li>Resolución de problemas complejos: Habilidad para abordar desafíos técnicos, identificar soluciones y ejecutar implementaciones.</li>
-                                                                                        <li>Gestión de proyectos ágiles: Familiaridad con metodologías ágiles como Scrum y Kanban para la gestión de proyectos de desarrollo de software.</li>
+                <li>Evaluación y diagnóstico físico: Capacidad para evaluar la condición física de los pacientes y desarrollar planes de tratamiento personalizados.</li>
+                <li>Terapia neurológica: Manejo de pacientes con afecciones neurológicas, como accidentes cerebrovasculares o esclerosis múltiple.</li>
+                <li>Terapia respiratoria: Tratamiento y rehabilitación de pacientes con enfermedades respiratorias, como EPOC o fibrosis pulmonar.</li>
+                <li>Rehabilitación pediátrica: Tratamiento de niños con problemas musculoesqueléticos, neurológicos o respiratorios.</li>
+                <li>Rehabilitación geriátrica: Atención especializada a adultos mayores para mejorar su movilidad, equilibrio y calidad de vida.</li>
+                <li>Ejercicios terapéuticos: Diseño de programas de ejercicios para fortalecer y rehabilitar el cuerpo.</li>
+                <li>Manejo del dolor: Técnicas como electroterapia, masajes y movilización articular para reducir el dolor y la inflamación.</li>
+                <li> Trabajo en equipo multidisciplinario: Colaboración con médicos, terapeutas ocupacionales y otros profesionales de la salud para diseñar tratamientos integrales.</li>
+                <li>Atención personalizada y empatía: Capacidad para entender las necesidades de los pacientes y ofrecerles un trato cercano y humano.</li>
+            </ol>
+            <ol class="lista"><h2>Habilidades en Tecnología</h2>
+                <li>Programación Full-Stack en Python: Desarrollo de aplicaciones web usando Python tanto en el lado del servidor como en el frontend.</li>
+                <li>Desarrollo de aplicaciones web: Creación de interfaces de usuario interactivas y gestión de bases de datos.</li>
+                <li>Diseño UX (Experiencia del Usuario): Diseño de interfaces centradas en el usuario, asegurando una experiencia intuitiva y eficiente.</li>
+                <li>Desarrollo de software: Aplicación de principios de ingeniería de software en la creación de aplicaciones robustas y escalables.</li>
+                <li>Inteligencia Artificial (IA): Conocimientos en el uso de IA y aprendizaje automático, aplicando estos conceptos en diferentes áreas.</li>
+                <li>Desarrollo de soluciones tecnológicas: Capacidad para crear soluciones tecnológicas innovadoras y efectivas que resuelvan problemas del mundo real.</li>
+                <li>Trabajo con bases de datos: Diseño y manejo de bases de datos, asegurando su correcto funcionamiento y optimización.</li>
+                <li>Uso de herramientas de colaboración: Trabajo con plataformas como GitHub, JIRA y Slack para gestión de proyectos y trabajo en equipo.</li>
+                <li>Resolución de problemas complejos: Habilidad para abordar desafíos técnicos, identificar soluciones y ejecutar implementaciones.</li>
+                <li>Gestión de proyectos ágiles: Familiaridad con metodologías ágiles como Scrum y Kanban para la gestión de proyectos de desarrollo de software.</li>
             </ol>
         </section>
     </main>

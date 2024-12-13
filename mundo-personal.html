@@ -3,24 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- meta menú hamburger -->
+    <script src="https://kit.fontawesome.com/a763bf316a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/Imagenes/lluvia-de-meteoros.gif" type="image/x-icon">
     <title>Historia personal de Gisela Rodriguez</title>
     <link rel="stylesheet" href="Estilo/estilos.css" />
   </head>
   <body>
     <header>
-      <h1>Historia personal de Gisela Rodriguez</h1>
+      <nav class="menu">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="hipervinculo" href="/index.html">Home</a></li>
+            <li><a class="hipervinculo" href="/informacion-personal.html" aria-label="Ir a informacion Personal">informacion Personal</a></li>
+            <li><a class="hipervinculo" href="formacion-temprana-y-educacion.html" aria-label="Ir a Formación Temprana y Educación">Formación Temprana y Educación</a></li>
+            <li><a class="hipervinculo" href="carrera-profesional.html" aria-label="Ir a carrera profesional">Carrera Profesional</a></li>
+            <li><a class="hipervinculo" href="mundo-personal.html" aria-label="Ir a Mundo Personal">Mundo Personal</a></li>
+        </ul>
+        <h1>Historia personal de Gisela Rodriguez</h1>
+      </nav>
     </header>
     <main>
        
-      <section>
-        <div class="contenedor-grid-card">
-          <div class="hobbies">
-            
-            <h2>MIS HOBBIES</h2>
-          </div>
+      <section class="contenedor-cards">
+        <div class="contenedor-grid-card" >
+          <h2 id="hobbies">MIS HOBBIES</h2>
           <div class="grid-item">
             <h3 class="subtitle">Lectura</h3>
-            <img class="campo-img" src="Imagenes/Designer.png" alt="Foto de lectura" class="foto" style="width: 30%; height: 20%; margin: 0 auto"/>
+            <img class="campo-img" src="/Imagenes/Designer.png" width="360" height="300" margin: 50 auto alt="Imagen optimizada de lectura"/>
+
             <p class="text">
               Considero la lectura una parte fundamental para formarse, aprender y
               crecer. Me gustan las novelas de ciencia ficción, con suspenso y algo
@@ -30,7 +44,7 @@
           </div>
           <div class="grid-item">
             <h3 class="subtitle">Paseos a la Playa</h3>
-              <img class="campo-img" src="Imagenes/Designer (1).png" alt="Foto de paseo en la playa" class="foto" style="width: 30%; height: 20%; margin: 0 auto"/>
+              <img class="campo-img" src="Imagenes/Designer (1).png" width="360" height="300" margin: 0 aut alt="Imagen optimizada de paseo en la playa" class="foto"/>
             <p class="text">
                 Me gusta desconectarme del caos de la ciudad e ir a la playa, pasar un
                 tiempo de relajación y pasarla bien. Es mi escape perfecto para
@@ -40,7 +54,7 @@
           </div>
           <div class="grid-item">
             <h3 class="subtitle">Música</h3>
-              <img class="campo-img" src="Imagenes/Designer (3).png" alt="Foto de musica" class="foto" style="width: 30%; height: 30%; margin: 0 auto"/>
+              <img class="campo-img" src="Imagenes/Designer (3).png" width="360" height="300" margin: 0 aut alt="Imagen optimizada de música" class="foto"/>
               <p class="text">
                 Siento que me complemento con la música y los distintos estados de
                 ánimo, por lo que la utilizo para trabajar, estudiar, viajar.
@@ -52,15 +66,12 @@
         </div>
       </section>
       <section>
-        <h2>Análisis</h2>
-        <p>
+        <div id="analisis"><h2>Análisis</h2>
+          <p>
           En resumen, tus hobbies reflejan que eres una persona equilibrada, con una mentalidad en constante crecimiento. La lectura alimenta tu curiosidad y creatividad, abriéndote a nuevas ideas que te ayudan a mantener una visión innovadora, especialmente en tu proceso de reinvención profesional. El paseo por la playa te brinda el descanso y la renovación que necesitas para desconectarte del estrés y recargar energías, lo que es esencial para mantener un equilibrio emocional y físico en tu vida diaria. La música, como compañera constante, te mantiene motivada y enfocada, ayudándote a establecer el ritmo adecuado para cualquier actividad, desde el trabajo hasta el estudio.
-
-        </p>
-        <p>
-          Estos intereses no solo enriquecen tu vida personal, sino que también complementan tus aspiraciones profesionales. La combinación de estos hobbies te proporciona las herramientas necesarias para seguir evolucionando y adaptándote a los nuevos desafíos, tanto en el ámbito de la fisioterapia como en tu incipiente carrera tecnológica.
-
-        </p>
+          
+          Estos intereses no solo enriquecen tu vida personal, sino que también complementan tus aspiraciones profesionales. La combinación de estos hobbies te proporciona las herramientas necesarias para seguir evolucionando y adaptándote a los nuevos desafíos, tanto en el ámbito de la fisioterapia como en tu incipiente carrera tecnológica.</p>
+        </div>
       </section>
     </main>
     <footer>

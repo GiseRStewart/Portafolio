@@ -11,12 +11,20 @@ body {
 
 header {
   background: linear-gradient(500deg,#e44390 , #f1ad53, rgba(31, 142, 156, 0.9),rgba(236, 94, 229, 0.9));
-  padding: 20px;
+  padding: 3px;
   text-align: center;
   width: 100vw;
   z-index: 1000;
 }
-
+h1 .header{
+  color: #bd2bab;
+    text-align: center;
+    font: 1.5em "Gloria Hallelujah";
+    font-style: normal;
+    padding-top: 10vh;
+    margin: -13vh 8vw 0vh 19vw;
+    width: 10vw;
+}
 .hipervinculo{
   
   text-decoration: none;
@@ -31,6 +39,7 @@ header {
 .menu ul{
   float: right;
   margin-right: 20px;
+  margin-top: 4vh;
 
 }
 .menu ul li{
@@ -54,14 +63,14 @@ header {
   transform: scale(1.1);
 }
 
-/* .checkbtn{
+.checkbtn{
   font-size: 30px;
   float: right;
   margin-left: 325px;
   line-height: 70px;
   cursor: pointer;
   display: none;
-} */
+}
 
 #check{
   display: none;
@@ -71,28 +80,32 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
-  
 }
 h1 {
-    color: #bd2bab;
-    text-align: center;
-    font: 2em "Gloria Hallelujah";
+  color: #bd2bab;
+  text-align: center;
+  font: 1.5em "Gloria Hallelujah";
     font-style: normal;
-    padding-top: 30vh;
-    margin: -28vh 0vw 2vh 22vw;
-    width: 50vw;
+    padding-top: 10vh;
+    margin: -13vh 8vw 0vh 19vw;
+    width: 10vw;
 }
+
+
 @keyframes scrollBanner {
   0% { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 }
+
 .marquee {
-  animation: scrollBanner 10s linear infinite;
-  white-space: nowrap;
-  width: 98vw;
-  height: 50vh;
-  margin: 1vh 0vw -8vh 0vw;
+    animation: scrollBanner 20s linear infinite;
+    white-space: nowrap;
+    font-size: 24px;
+    padding: -13px;
+    width: 98vw;
+    height: 33vh;
+    margin: 2vh 8vw -4vh 2vw;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 /* #title{
     width: 98vw;
@@ -112,18 +125,44 @@ h1 {
 }
 h2 {
   color:#e44390;
-  margin-top: 0;
+  margin: 4vh 8vw 8vh 6vw;
   text-align: center;
   font-size: 1.5em;
   font-family: Arial, sans-serif;
 }
-  
+#enfoque {
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  margin: 3vh;
+} 
+.lista{
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  margin: 6vh;
+}
+#hobbies{
+  color: #e44390;
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    margin: -2vh -100vw 0vh 5vw;
+    padding-left: 18vw;
+}
+.contenedor-cards {
+  width: 78vw;
+  height: auto;
+  margin-top: -48vh;
+}
+
 .contenedor-grid-card {
     width: 98vw;
     height: auto;
     margin-top: 4vh;
     display: grid;
-    grid-template-columns: repeat(4, 360px);
+    grid-template-columns: repeat(4, 400px);
     grid-template-rows: repeat calc(33.33% - 20px)1, auto;
     justify-content: center;
     column-gap: 2vw;
@@ -146,8 +185,7 @@ h3 {
 }
 .subtitle {
     text-align: center;
-    color: black;
-    border-radius: 2px;
+    color: #e44390;
     font-size: 2vw;
     padding: 0vw;
 }
@@ -158,6 +196,7 @@ h3 {
 .campo-img {
   text-align: center;
   align-items: center;
+  margin: 5vh 0vw 5vh -0.5vw;
 }
 .seccion p {
   color: darkslategray;
@@ -165,13 +204,22 @@ h3 {
 
 }
 .text{
-    font: 1.5em Arial, sans-serif;
+    font: 1em Arial, sans-serif;
     font-optical-sizing: auto;
     color: darkslategray;
     text-align: justify;
     text-indent: 5em;
     margin: 10px;
     padding: 5px;
+}
+#analisis{
+    font: 1em Arial, sans-serif;
+    font-optical-sizing: auto;
+    color: darkslategray;
+    text-align: justify;
+    text-indent: 5em;
+    margin: 0vh -18vw 0vh -20vw;
+    padding: 10px;
 }
 button {
   background-color: #bd2bab;
@@ -228,13 +276,14 @@ footer p {
 
 footer{
   position: absolute;
-  bottom: 0;
-  width: 100%;
   background: linear-gradient(500deg, #e44390, #f1ad53, rgba(31, 142, 156, 0.9), rgba(236, 94, 229, 0.9));
-  bottom: -605px;
-  height: 42vh;
-  margin-bottom: -593vh;
-  color: #bd2bab;
+  width: 98vw;
+  height: 53vh;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  
 }
 
 
@@ -247,7 +296,7 @@ footer{
 h5{
     
     font-style: inherit;
-    padding: 8px;
+    padding: 0px;
     margin-left: 41vw;
     font-size: medium;
     transition: .3s linear;
@@ -258,8 +307,8 @@ h5{
 #titulo-redes{
   text-align: center;
   margin-top: inherit;
-  margin-left: 75px;
-    padding-top: 10px;
+  margin-left: 55px;
+    padding-top: 20px;
   font: bolder 26px "Oxanium", sans-serif;
 }
 .redes-img {

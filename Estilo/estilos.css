@@ -8,7 +8,7 @@ body {
   padding: 0;
   background-color: #e7e2e4;
 }
-
+/* Header */
 header {
   background: linear-gradient(500deg,#e44390 , #f1ad53, rgba(31, 142, 156, 0.9),rgba(236, 94, 229, 0.9));
   padding: 3px;
@@ -16,7 +16,7 @@ header {
   width: 100vw;
   z-index: 1000;
 }
-h1 .header{
+/* .header{
   color: #bd2bab;
     text-align: center;
     font: 1.5em "Gloria Hallelujah";
@@ -24,7 +24,7 @@ h1 .header{
     padding-top: 10vh;
     margin: -13vh 8vw 0vh 19vw;
     width: 10vw;
-}
+} */
 .hipervinculo{
   
   text-decoration: none;
@@ -44,7 +44,7 @@ h1 .header{
 }
 .menu ul li{
   display: inline-block;
-  line-height: 150px;
+  line-height: 120px;
   margin: 0 5px;
 }
 .menu ul li:hover{
@@ -84,13 +84,12 @@ main {
 h1 {
   color: #bd2bab;
   text-align: center;
-  font: 1.5em "Gloria Hallelujah";
-    font-style: normal;
-    padding-top: 10vh;
-    margin: -13vh 8vw 0vh 19vw;
-    width: 10vw;
+  font: 2em "Gloria Hallelujah";
+  font-style: normal;
+  padding-top: 10vh;
+  margin: -13vh 8vw 0vh 10vw;
+  width: 73vw;
 }
-
 
 @keyframes scrollBanner {
   0% { transform: translateX(100%); }
@@ -100,12 +99,10 @@ h1 {
 .marquee {
     animation: scrollBanner 20s linear infinite;
     white-space: nowrap;
-    font-size: 24px;
-    padding: -13px;
     width: 98vw;
     height: 33vh;
-    margin: 2vh 8vw -4vh 2vw;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    margin: 1vh 0vw -5vh 12vw;
+    text-shadow: 
 }
 /* #title{
     width: 98vw;
@@ -266,9 +263,61 @@ button:hover {
 }
 .estudios ul li{
   text-decoration: none;
-  margin: 1vh 5vw 5vh 50vw;
+  margin: 6vh 15vw 0vh 4vw;
 }
 
+/* Información básica */
+
+.informacion-basica{
+  text-decoration: none;
+  text-align: justify;
+  font: 1em "Gloria Hallelujah";
+  font-style: normal;
+  padding-top: 10vh;
+  margin: 1vh 11vw 5vh 0vw;
+  width: 55vw;
+}
+.informacion-basica ul li{
+  text-decoration: none;
+  margin: 1vh 5vw 5vh 10vw;
+}
+ul li{
+  text-decoration: none;
+}
+.datos{
+    text-align: justify;
+    color: darkslategray;
+    text-indent: 0em;
+    padding: 2px;
+    margin: 5vh 0vw 0vh 0vw;
+  
+}
+
+.respuesta{
+    font: 1rem Arial, sans-serif;
+    color: darkslategray;
+    text-align: justify;
+    text-indent: 0em;
+    margin: 7px;
+    padding: 5px;
+}
+.detalle{
+  color: darkslategray;
+    text-align: right;
+    font-style: normal;
+    padding-top: 7vh;
+    margin: 19vh 0vw 0vh 5vw;
+    width: 17vw;
+}
+
+h6{
+  color: #bd2bab;
+    text-align: center;
+    font: 1.5em "Gloria Hallelujah";
+    font-style: normal;
+    padding-top: 11vh;
+    margin: -13vh 4vw 0vh 0vw;
+}
 
 footer p {
   text-align: center;

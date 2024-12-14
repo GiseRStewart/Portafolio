@@ -16,15 +16,6 @@ header {
   width: 100vw;
   z-index: 1000;
 }
-/* .header{
-  color: #bd2bab;
-    text-align: center;
-    font: 1.5em "Gloria Hallelujah";
-    font-style: normal;
-    padding-top: 10vh;
-    margin: -13vh 8vw 0vh 19vw;
-    width: 10vw;
-} */
 .hipervinculo{
   
   text-decoration: none;
@@ -102,15 +93,9 @@ h1 {
     width: 98vw;
     height: 33vh;
     margin: 1vh 0vw -5vh 12vw;
-    text-shadow: 
+ 
 }
-/* #title{
-    width: 98vw;
-    height: 50vh;
-    margin: 1vh 0vw -8vh 0vw;
-    font: 1.5rem "Oxanium", sans-serif;
-    font-style: normal;
-} */
+
 .seccion {
   background-color: #fff;
   padding: 20px;
@@ -139,19 +124,11 @@ h2 {
   text-align: justify;
   margin: 6vh;
 }
-#hobbies{
-  color: #e44390;
-    margin-top: 0;
-    text-align: center;
-    font-size: 1.5em;
-    font-family: Arial, sans-serif;
-    margin: -2vh -100vw 0vh 5vw;
-    padding-left: 18vw;
-}
+/* Mundo personal */
 .contenedor-cards {
   width: 78vw;
   height: auto;
-  margin-top: -48vh;
+  margin-top: 0vh;
 }
 
 .contenedor-grid-card {
@@ -167,6 +144,16 @@ h2 {
     padding: 22px;
     margin-left: -29vw;
 }
+#hobbies{
+  color: #e44390;
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    margin: -2vh -100vw 0vh 5vw;
+    padding-left: 18vw;
+}
+
 .grid-item {
   box-shadow: 2px 2px 2px 2px rgb(91, 90, 90);
   text-align: center;
@@ -174,12 +161,7 @@ h2 {
   padding: 20px;
   margin: 10vh 0.5vw 5vh 0.5vw;
 }
-h3 {
-  color: black;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+
 .subtitle {
     text-align: center;
     color: #e44390;
@@ -187,19 +169,12 @@ h3 {
     padding: 0vw;
 }
 
-.subtitle h3{
-    color:navy;
-}
 .campo-img {
   text-align: center;
   align-items: center;
   margin: 5vh 0vw 5vh -0.5vw;
 }
-.seccion p {
-  color: darkslategray;
-  margin-bottom: 20px;
 
-}
 .text{
     font: 1em Arial, sans-serif;
     font-optical-sizing: auto;
@@ -218,17 +193,14 @@ h3 {
     margin: 0vh -18vw 0vh -20vw;
     padding: 10px;
 }
-button {
-  background-color: #bd2bab;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-button:hover {
-  background-color: #b92ead;
+.anap{
+    font-optical-sizing: auto;
+    text-align: justify;
+    text-indent: 5em;
+    margin: 10vh 5vw 4vh 8vw;
+    padding: 5px;
+    width: 97vw;
 }
 
 .text1{
@@ -324,15 +296,14 @@ footer p {
 }
 
 footer{
-  position: absolute;
   background: linear-gradient(500deg, #e44390, #f1ad53, rgba(31, 142, 156, 0.9), rgba(236, 94, 229, 0.9));
   width: 98vw;
-  height: 53vh;
   padding: 1%;
   display: flex;
   justify-content: center;
   color: #ffffff;
-  
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -353,6 +324,7 @@ h5{
 .seccion-pie a{
     text-decoration: none;
 }
+
 #titulo-redes{
   text-align: center;
   margin-top: inherit;

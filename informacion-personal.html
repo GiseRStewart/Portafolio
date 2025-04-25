@@ -1,121 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="/Imagenes/lluvia-de-meteoros.gif"
-      type="image/x-icon"
-    />
-    <title>Información personal de Gisela Rodriguez</title>
-    <link rel="stylesheet" href="Estilo/estilos.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="menu">
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
-          <i class="fa-solid fa-bars"></i
-        ></label>
-        <ul>
-          <li><a class="hipervinculo" href="/index.html">Home</a></li>
-          <li>
-            <a
-              class="hipervinculo"
-              href="/informacion-personal.html"
-              aria-label="Ir a informacion Personal"
-              >Información Personal</a
-            >
-          </li>
-          <li>
-            <a
-              class="hipervinculo"
-              href="formacion-temprana-y-educacion.html"
-              aria-label="Ir a Formación Temprana y Educación"
-              >Formación Temprana y Educación</a
-            >
-          </li>
-          <li>
-            <a
-              class="hipervinculo"
-              href="carrera-profesional.html"
-              aria-label="Ir a carrera profesional"
-              >Carrera Profesional</a
-            >
-          </li>
-          <li>
-            <a
-              class="hipervinculo"
-              href="mundo-personal.html"
-              aria-label="Ir a Mundo Personal"
-              >Mundo Personal</a
-            >
-          </li>
-        </ul>
-        <h1>Información personal de Gisela Rodriguez</h1>
-      </nav>
-    </header>
-    <main>
-      <div class="informacion-basica">
-        <ul>
-          <li>
-            <h2 class="datos">Nombre Completo:</h2>
-            <p class="respuesta">Gisela Janeth Rodriguez Stewart</p>
-          </li>
-          <li>
-            <h2 class="datos">Fecha y Lugar de Nacimiento:</h2>
-            <p class="respuesta">
-              19 de noviembre de 1983, Barranquilla, Colombia
-            </p>
-          </li>
-          <li>
-            <h2 class="datos">Nacionalidad:</h2>
-            <p class="respuesta">Colombiana</p>
-          </li>
-        </ul>
-      </div>
-      <div class="detalle">
-        <strong>Cita Favorita:</strong>
-        <span
-          >"Con todo el corazón, la perseverancia y el sabor del Caribe, siempre
-          le damos la vuelta a lo que venga. ¡Aquí, todes somos capaces de
-          transformar lo que sea!" RedDiversa</span
-        >
-      </div>
-      <section>
-        <h6>Te Presento RedDiversa!</h6>
-        <iframe
-          src="https://copilotstudio.microsoft.com/environments/Default-6ca34ae1-466f-44bc-a7aa-0ac5a78c61b1/bots/cr3a3_redDiversa/webchat?__version__=2"
-          frameborder="0"
-          style="width: 50vw; height: 80vh"
-        ></iframe>
-      </section>
-    </main>
 
-    <footer>
-      <section class="seccion-pie">
-        <h4 id="titulo-redes">Mis Redes de Contacto</h4>
-        <a href="../index.html"
-          ><img class="redes-img" src="/Imagenes/home.png" alt=""
-        /></a>
-        <a href="https://discord.com/" target="_blank"
-          ><img class="redes-img" src="/Imagenes/discord.png" alt="discord.com"
-        /></a>
-        <a href="https://www.linkedin.com/" target="_blank"
-          ><img
-            class="redes-img"
-            src="/Imagenes/linkedin.png"
-            alt="www.linkedin.com"
-        /></a>
-        <a href="https://techno-power.netlify.app/" target="_blank"
-          ><img
-            class="redes-img"
-            src="/Imagenes/github.png"
-            alt="techno-power proyecto de cursada"
-        /></a>
-        <h5>&copy; 2024 Portafolio de Gisela Rodriguez</h5>
-      </section>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/Imagenes/lluvia-de-meteoros.gif" type="image/x-icon" />
+  <title>Información personal de Gisela Rodriguez</title>
+  <link rel="stylesheet" href="Estilo/estilos.css" />
+</head>
+
+<body>
+  <!-- Contenedor para el header -->
+  <div id="header"></div>
+  <div id="barra-progreso-container">
+    <div id="barra-progreso"></div>
+  </div>
+  <main>
+    <div class="informacion-basica">
+      <p id="info-p"> "Soy una apasionada de la tecnología, un campo que ha logrado
+        cautivarme por su infinito potencial de transformación. Tras muchos
+        años dedicada al ámbito de la salud como fisioterapeuta, he
+        descubierto una fascinante conexión entre ambas disciplinas. A lo
+        largo de mi trayectoria profesional, he podido observar cómo la
+        integración de la tecnología en la atención sanitaria no solo mejora
+        la eficiencia, sino que ofrece soluciones innovadoras que tienen el
+        poder de transformar vidas. Esta experiencia única me ha permitido
+        comprender cómo la fusión entre salud y tecnología puede crear nuevas
+        oportunidades para el bienestar y la calidad de vida de las personas,
+        brindando alternativas más personalizadas y efectivas en cada
+        tratamiento."</p>
+      <ul>
+        <li>
+          <h2 class="datos">Nombre Completo:</h2>
+          <p class="respuesta">Gisela Janeth Rodriguez Stewart</p>
+        </li>
+        <li>
+          <h2 class="datos">Fecha y Lugar de Nacimiento:</h2>
+          <p class="respuesta">
+            19 de noviembre de 1983, Barranquilla, Colombia
+          </p>
+        </li>
+        <li>
+          <h2 class="datos">Nacionalidad:</h2>
+          <p class="respuesta">Colombiana</p>
+        </li>
+      </ul>
+    </div>
+    <div class="detalle">
+      <h2>Cita Favorita:</h2>
+      <p id="citap">"Con todo el corazón, la perseverancia y el sabor del Caribe, siempre
+        le damos la vuelta a lo que venga. ¡Aquí, todes somos capaces de
+        transformar lo que sea!" RedDiversa</p>
+    </div>
+    <section>
+      <h6>Te Presento RedDiversa!</h6>
+      <p id="redDiv">Aquí encontraras información acerca del chatbot que he creado
+        para la comunidad LGTBIQ+ de Barranquilla, Colombia. Este chatbot fue
+        desarrollado como parte de un proyecto de investigación en el que
+        participo, y tiene como objetivo brindar apoyo a la comunidad en
+        temas relacionados con la salud mental y el bienestar emocional.
+      </p>
+      <iframe
+        src="https://copilotstudio.microsoft.com/environments/Default-6ca34ae1-466f-44bc-a7aa-0ac5a78c61b1/bots/cr3a3_redDiversa/webchat?__version__=2"
+        frameborder="0" style="width: 50vw; height: 80vh"></iframe>
+    </section>
+  </main>
+
+  <!-- Contenedor para el footer -->
+  <div id="footer"></div>
+  <script src="Javascript/interacciones.js"></script>
+  <script src="Javascript/cargarcontenido.js"></script>
+
+</body>
+
 </html>
